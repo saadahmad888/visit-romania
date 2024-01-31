@@ -22,6 +22,27 @@
         width: 95%;
         padding: 20px;
     }
+    .navbar-top{
+        display: none;
+    }
+    .navbar-main .icons-list{
+        flex-direction: row;
+    }
+    .navbar-main .icons-list li{
+        margin-right: 10px;
+    }
+    .top-nav-links{
+        display: block;
+    }
+    .plan-save-section .content-box{
+        left: 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+    #myVideo{
+        border-bottom-right-radius: 0!important;
+    }
 }
 @media only screen and (max-width: 576px){
     
