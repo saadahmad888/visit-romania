@@ -31,9 +31,100 @@ a {
 /* =======================================================================
     Navbar CSS
 ========================================================================== */
+.navbar-top{
+    border-bottom: 1px solid var(--text);
+    padding: 10px 0;
+}
+.navbar-top .link-box ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.navbar-top .link-box ul li{
+    margin-right: 20px;
+}
+.navbar-top .link-box ul li a{
+    color: var(--text);
+    font-size: 12px;
+    font-weight: 400;
+    transition: 0.3s all ease;
+}
+.navbar-top .link-box ul li a:hover{
+    color: var(--blue);
+    text-decoration: underline;
+}
+.navbar-top .link-box ul li .btn-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+.navbar-top .link-box ul li .btn-link:hover{
+    text-decoration: none;
+}
 
+.navbar-main .nav-link{
+    color: var(--text);
+    font-size: 15px;
+    font-weight: 500;
+}
+.navbar-main{
+    position: relative;
+}
+.navbar-main .nav-link:hover,
+.navbar-main .nav-link.active{
+    color: var(--blue);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+.mega-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--white);
+    z-index: 10;
+    width: 100%;
+    border-top: 1px solid var(--text);
+    padding: 20px 40px;
+    display: none;
+}
+.mega-menu .mega-item{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.mega-menu .mega-item .title{
+    color: var(--blue);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.mega-menu .mega-item .title i{
+    transition: 0.3s all ease;
+}
+.mega-menu .mega-item .title:hover{
+    text-decoration: underline;
+}
+.mega-menu .mega-item .title:hover i{
+    padding-left: 10px;
+}
+.mega-menu .mega-item .desc{
+    font-size: 12px;
 
-
+}
+.mega-menu .img-box img{
+    border-radius: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: block;
+}
+.mega-menu .img-box a{
+    color: var(--blue);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
 
 
 
