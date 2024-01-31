@@ -1,0 +1,263 @@
+@import url("./variables.css");
+
+/* font-family: 'Plus Jakarta Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    position: relative;
+    background-color: var(--white);
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+
+
+
+/* =======================================================================
+    Buttons CSS
+========================================================================== */
+
+/* =======================================================================
+    General Common CSS
+========================================================================== */
+
+
+
+/* =======================================================================
+    Navbar CSS
+========================================================================== */
+
+
+
+
+
+
+/* =======================================================================
+    Main Banner CSS
+========================================================================== */
+.main-banner-sec{
+    background-image: url('https://www.visitdubai.com/-/media/images/leisure/homepage/2023-homepage-hero/desert-winter-friends-det.jpeg?rev=376389dece354be381c427c690651126&cx=0.63&cy=0.48&cw=1556&ch=690');
+    border-bottom-right-radius: 132px;
+    height: 550px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.main-banner-sec .content-box{
+    background-color: var(--yellow);
+    transition: all .7s ease-in-out;
+    padding: 76px 120px 60px;
+    border-top-right-radius: 80px;
+    position: absolute;
+    bottom: -50px;
+    width: 800px;
+}
+.main-banner-sec .content-box .title{
+    color: var(--red);
+    font-size: 25px;
+    font-weight: 800;
+}
+.main-banner-sec .content-box .desc{
+    color: var(--blue);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.main-banner-sec .content-box .banner-btn{
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 10px 30px;
+}
+.main-banner-sec .banner-top-img{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+}
+
+
+
+
+
+
+/* =======================================================================
+    Footer CSS
+========================================================================== */
+footer{
+    position: relative;
+}
+.newletter-sec{
+    background-color: var(--white);
+    border-top: 4px solid var(--red);
+    padding: 50px 0 20px 0;
+}
+.newletter-sec .newsletter-box{
+    margin-bottom: 30px;
+    padding-right: 50px;
+}
+.newletter-sec .newsletter-box .title{
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.newletter-sec .newsletter-box .desc{
+    color: var(--text);
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.newletter-sec .newsletter-box .desc a{
+    color: var(--text);
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.newletter-sec .newsletter-box .mail-box .form-control{
+    background-color: var(--white);
+    min-height: 45px;
+    margin-bottom: 15px;
+    color: var(--text);
+    border-radius: 5px;
+}
+.newletter-sec .newsletter-box .mail-box .form-control:focus{
+    box-shadow: none;
+    outline: none;
+    border-color: var(--blue);
+}
+.newletter-sec .newsletter-box .mail-box .submit-btn{
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 10px 20px;
+    width: 100%;
+    border: 1.5px solid var(--blue);
+    font-weight: 500;
+}
+.newletter-sec .newsletter-box .mail-box .submit-btn:hover{
+    background-color: var(--white);
+    color: var(--blue);
+}
+.newletter-sec .app-box{
+    margin-bottom: 30px;
+}
+.newletter-sec .app-box .title{
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.newletter-sec .app-box .app-item img{
+    display: block;
+    width: 100px;
+    /* margin: 0 auto; */
+    margin-bottom: 10px;
+}
+.newletter-sec .app-box .app-item a{
+    color: var(--text);
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.footer-main-sec{
+    background-color: var(--blue);
+    padding: 70px 0 50px 0;
+    border-bottom: 1px solid var(--white);
+}
+.footer-main-sec .first-col .logo img{
+    width: 200px;
+    margin-bottom: 30px;
+}
+.footer-main-sec .first-col .social-links a{
+    color: var(--white);
+    font-size: 25px;
+    margin-right: 20px;
+    transition: 0.3s all ease;
+}
+.footer-main-sec .footer-link-col .title{
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.footer-main-sec .footer-link-col ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-main-sec .footer-link-col ul li{
+    margin-bottom: 10px;
+}
+.footer-main-sec .footer-link-col li a{
+    color: var(--white);
+    font-size: 14px;
+    transition: 0.3s all ease;
+}
+.footer-main-sec .footer-link-col ul li a:hover{
+    text-decoration: underline;
+    letter-spacing: 0.5px;
+}
+.footer-bottom-sec{
+    background-color: var(--blue);
+    padding: 30px 0 30px 0;
+}
+.footer-bottom-sec .footer-link-col ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.footer-bottom-sec .footer-link-col ul li{
+    margin-right: 20px;
+}
+.footer-bottom-sec .footer-link-col ul li a{
+    color: var(--white);
+    font-size: 14px;
+    transition: 0.3s all ease;
+}
+.footer-bottom-sec .footer-link-col ul li a:hover{
+    text-decoration: underline;
+}
+.footer-bottom-sec .copyright-text p{
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.footer-bottom-sec .site-updated{
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+
+
+/* =======================================================================
+    Scroll to top Floating Button CSS
+========================================================================== */
+.scroll-to-top{
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: var(--blue);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    transition: 0.3s all ease;
+}
+.scroll-to-top:hover{
+    bottom: 60px;
+}
