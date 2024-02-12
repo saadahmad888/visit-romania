@@ -352,6 +352,93 @@ a {
 
 
 /* =======================================================================
+    Whats on Page CSS
+========================================================================== */
+.whats-on-top-sec{
+    background: rgb(177,16,35);
+    background: linear-gradient(180deg, rgba(177,16,35,1) 38%, rgba(252,170,40,1) 100%);
+    color: var(--white);
+    position: relative;
+    padding-bottom: 250px;
+    margin-bottom: 350px;
+}
+.whats-on-top-sec .sub-page-heading .bread-crumbs a,
+.whats-on-top-sec .sub-page-heading .bread-crumbs i,
+.whats-on-top-sec .sub-page-heading .bread-crumbs p{
+    color: var(--white);
+}
+.whats-on-top-sec .heading{
+    font-weight: 600;
+    color: var(--white);
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.whats-on-top-sec .cat-btn{
+    margin-bottom: 20px;
+}
+.whats-on-top-sec .cat-btn a{
+    background-color: var(--white);
+    color: var(--grayscale);
+}
+.whats-on-top-sec .cat-btn a:hover,
+.whats-on-top-sec .cat-btn a.active{
+    background-color: var(--grayscale);
+    color: var(--white);
+    border-color: var(--grayscale);
+}
+.whats-on-top-sec .desc{
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 500;
+    width: 80%;
+    margin-bottom: 30px;
+}
+.whats-on-top-sec .slider-box{
+    position: absolute;
+    width: 100%;
+}
+.whats-on-top-sec .slider-box .video-box .play-btn{
+    background-color: var(--white);
+    color: var(--red);
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+#whats-on-first-slider .owl-nav{
+    position: absolute;
+    top: 100px;
+    right: 45px;
+}
+#whats-on-first-slider .owl-nav button{
+    background-color: var(--white);
+    color: var(--red);
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px!important;
+    display: block;
+    width: fit-content;
+}
+#whats-on-first-slider .owl-dots{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 100px;
+}
+#whats-on-first-slider .owl-dots .owl-dot span{
+    background-color: #c5c5c5;
+    width: 5px;
+    height: 5px;
+}
+#whats-on-first-slider .owl-dots .owl-dot.active span{
+    background-color: var(--red);
+    width: 10px;
+    height: 10px;
+}
+
+/* =======================================================================
     Footer CSS
 ========================================================================== */
 footer{
