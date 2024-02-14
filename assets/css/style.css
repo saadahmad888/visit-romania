@@ -417,9 +417,14 @@ a {
     color: var(--red);
     border-radius: 5px;
     border: none;
-    padding: 10px 20px!important;
+    padding: 10px 15px!important;
     display: block;
     width: fit-content;
+    transition: 0.3s all ease;
+}
+#whats-on-first-slider .owl-nav button:hover{
+    background-color: var(--red);
+    color: var(--white)!important;
 }
 #whats-on-first-slider .owl-dots{
     display: flex;
@@ -438,6 +443,411 @@ a {
     height: 10px;
 }
 
+/* Perfect Day Section */
+.perfect-day-sec{
+    padding-bottom: 50px;
+}
+.perfect-day-sec .desc{
+    color: var(--text);
+    font-weight: 500;
+    font-size: 16px;
+}
+.perfect-day-sec .desc a{
+    color: var(--red);
+    text-decoration: underline;
+    transition: 0.3s all ease;
+    font-weight: 600;
+}
+.perfect-day-sec .desc a:hover{
+    letter-spacing: 0.5px;
+}
+/* Unlock City Section */
+.unlock-city-sec .video-box{
+    position: relative;
+    padding: 70px 0;
+}
+.unlock-city-sec .video-box .play-btn{
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    background-color: var(--white);
+    color: var(--red);
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+}
+.unlock-city-sec .content-box{
+    background-color: var(--red);
+    color: var(--white);
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    padding: 60px 50px;
+    position: relative;
+    left: -130px;
+}
+.unlock-city-sec .content-box .heading{
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 20px;
+}
+.unlock-city-sec .content-box .heading:hover{
+    text-decoration: underline;
+}
+.unlock-city-sec .content-box .desc{
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 30px;
+}
+.btn-outline-tranparent{
+    background-color: transparent;
+    border: 1.5px solid var(--white);
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.3s all ease;
+}
+.btn-outline-tranparent:hover{
+    background-color: var(--white);
+    color: var(--red);
+}
+/* Festival section */
+.festival-list-sec{
+    padding: 70px 0 40px 0;
+}
+.festival-list-sec .festival-item{
+    background-color: #FCAA28;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.festival-list-sec .festival-item .img-box{
+    overflow: hidden;
+}
+.festival-list-sec .festival-item .img-box img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s all ease;
+    border-radius: 10px 10px 0 0;
+}
+.festival-list-sec .festival-item .content-box{
+    padding: 20px 30px 40px 30px;
+}
+.festival-list-sec .festival-item .content-box .date{
+    color: var(--black);
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 11px;
+}
+.festival-list-sec .festival-item .content-box .title{
+    color: var(--black);
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 22px;
+    transition: 0.3s all ease;
+}
+.festival-list-sec .festival-item .content-box .title:hover{
+    text-decoration: underline;
+}
+.festival-list-sec .festival-item .content-box .desc{
+    color: var(--black);
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.festival-list-sec .festival-item .content-box .btn-outline-tranparent{
+    color: var(--black);
+    font-size: 14px;
+}
+.festival-list-sec .festival-item:hover .img-box img{
+    transform: scale(1.1);
+    filter: brightness(0.7);
+}
+
+/* Concet Item */
+.festival-list-sec .concert-item{
+    background-color: var(--red);
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.festival-list-sec .concert-item .img-box{
+    overflow: hidden;
+}
+.festival-list-sec .concert-item .img-box img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s all ease;
+    border-radius: 10px 10px 0 0;
+}
+.festival-list-sec .concert-item .content-box{
+    padding: 20px 30px 40px 30px;
+}
+.festival-list-sec .concert-item .content-box .date{
+    color: var(--white);
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 11px;
+}
+.festival-list-sec .concert-item .content-box .title{
+    color: var(--white);
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 22px;
+    transition: 0.3s all ease;
+}
+.festival-list-sec .concert-item .content-box .title:hover{
+    text-decoration: underline;
+}
+.festival-list-sec .concert-item .content-box .desc{
+    color: var(--white);
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.festival-list-sec .concert-item .content-box .btn-outline-tranparent{
+    color: var(--white);
+    font-size: 14px;
+}
+.festival-list-sec .concert-item:hover .img-box img{
+    transform: scale(1.1);
+    filter: brightness(0.7);
+}
+
+/* Wahts On Main Section */
+.wahts-on-main-sec{
+    position: relative;
+}
+.bg-red-box{
+    background-color: var(--red);
+    width: 98%;
+    margin: 0 auto;
+    height: 500px;
+    border-top-left-radius: 100px;
+    position: absolute; 
+    top: 0;
+    left: 1%;
+    z-index: -1;
+}
+.wahts-on-main-sec .img-box img{
+    border-top-left-radius: 60px;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.wahts-on-main-sec .content-box{
+    margin-left: 50px;
+}
+.wahts-on-main-sec .content-box .small{
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 50px;
+}
+.wahts-on-main-sec .content-box .title{
+    color: var(--black);
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 40px;
+}
+.wahts-on-main-sec .content-box .title:hover{
+    text-decoration: underline;
+}
+.wahts-on-main-sec .content-box .desc{
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.read-more-link-red{
+    color: var(--red);
+    font-weight: 600;
+    font-size: 16px;
+}
+.read-more-link-red:hover{
+    text-decoration: underline;
+}
+.like-btn{
+    background-color: var(--white);
+    border: 1px solid transparent;
+    color: var(--red);
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    transition: 0.3s all ease;
+}
+.like-btn:hover{
+    background-color: var(--red);
+    color: var(--white);
+}
+/* Wahts on Slider  */
+.wo-slider-item .img-box{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.wo-slider-item .img-box img{
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+}
+.wo-slider-item .content-box{
+    position: relative;
+    margin: 0;
+}
+.wo-slider-item .content-box .like-btn{
+    position: absolute;
+    right: 30px;
+    top: -60px;
+}
+.wo-slider-item .content-box .title{
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 600;
+}
+.wo-slider-item .content-box .read-time{
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+#wo-main-sec-slider .owl-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 30%;
+    position: absolute;
+    width: 100%;
+}
+#wo-main-sec-slider .owl-nav button{
+    background-color: var(--white);
+    color: var(--red);
+    padding: 10px 15px!important;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    transition: 0.3s all ease;
+}
+#wo-main-sec-slider .owl-nav button:hover{
+    background-color: var(--red);
+    color: var(--white);
+}
+#wo-main-sec-slider .owl-nav .owl-next{
+    right: -70px;
+    position: relative;
+}
+#wo-main-sec-slider .owl-nav .owl-prev{
+    left: -70px;
+    position: relative;
+}
+#wo-main-sec-slider .owl-dots{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 100px;
+}
+#wo-main-sec-slider .owl-dots .owl-dot span{
+    background-color: #c5c5c5;
+    width: 5px;
+    height: 5px;
+}
+#wo-main-sec-slider .owl-dots .owl-dot.active span{
+    background-color: var(--red);
+    width: 10px;
+    height: 10px;
+}
+
+
+
+
+
+/* =======================================================================
+    Local Culture Page
+========================================================================== */
+.text-after-slider{
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--grayscale);
+}
+.jump-to-sec{
+    padding: 70px 0 50px 0;
+}
+.jump-to-sec .title{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.jump-to-sec a{
+    color: var(--grayscale);
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+.jump-to-sec a:hover{
+    color: var(--red);
+    letter-spacing: 0.5px;
+}
+
+.culture-regular-sec{
+
+}
+.culture-regular-sec .heading{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--black);
+    margin-bottom: 30px;
+}
+.culture-regular-sec .text{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 20px;
+}
+.culture-regular-sec .text.bold{
+    font-weight: 600;
+}
+.cr-item img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.cr-item .text{
+    color: var(--grayscale);
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 0;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.culture-regular-slider .owl-nav button{
+    background-color: var(--white)!important;
+    font-size: 20px!important;
+    color: var(--blue)!important;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1)!important;
+    padding: 10px 15px!important;
+    display: block!important;
+    width: fit-content!important;
+}
 /* =======================================================================
     Footer CSS
 ========================================================================== */

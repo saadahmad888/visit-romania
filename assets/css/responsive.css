@@ -43,6 +43,10 @@
     #myVideo{
         border-bottom-right-radius: 0!important;
     }
+    .unlock-city-sec .content-box{
+        left: 0!important;
+        border-radius: 10px;
+    }
 }
 @media only screen and (max-width: 576px){
     
