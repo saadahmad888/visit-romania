@@ -807,7 +807,7 @@ a {
 }
 
 .culture-regular-sec{
-
+    padding-bottom: 70px;
 }
 .culture-regular-sec .heading{
     font-size: 30px;
@@ -839,6 +839,17 @@ a {
     font-weight: 600;
     padding-left: 20px;
 }
+.culture-regular-slider{
+    position: relative;
+}
+.culture-regular-slider .owl-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: 35%;
+}
 .culture-regular-slider .owl-nav button{
     background-color: var(--white)!important;
     font-size: 20px!important;
@@ -847,6 +858,42 @@ a {
     padding: 10px 15px!important;
     display: block!important;
     width: fit-content!important;
+    transition: 0.3s all ease;
+}
+.culture-regular-slider .owl-nav button:hover{
+    background-color: var(--blue)!important;
+    color: var(--white)!important;
+}
+.culture-regular-slider .owl-dots{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 100px;
+}
+.culture-regular-slider .owl-dots .owl-dot span{
+    background-color: #c5c5c5;
+    width: 5px;
+    height: 5px;
+}
+.culture-regular-slider .owl-dots .owl-dot.active span{
+    background-color: var(--blue);
+    width: 10px;
+    height: 10px;
+}
+
+.festival-list-sec .concert-item.white{
+    background-color: var(--white);
+    color: var(--black);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+.festival-list-sec .concert-item.white .content-box .date{
+    color: var(--black);
+}
+.festival-list-sec .concert-item.white .content-box .title{
+    color: var(--black);
+}
+.festival-list-sec .concert-item.white .content-box .desc{
+    color: var(--black);
 }
 /* =======================================================================
     Footer CSS
