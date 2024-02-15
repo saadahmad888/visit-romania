@@ -895,6 +895,193 @@ a {
 .festival-list-sec .concert-item.white .content-box .desc{
     color: var(--black);
 }
+
+
+.festival-list-sec .concert-item.blue{
+    background-color: var(--blue);
+    color: var(--white);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+.festival-list-sec .concert-item.blue .content-box .date{
+    color: var(--white);
+}
+.festival-list-sec .concert-item.blue .content-box .title{
+    color: var(--white);
+    min-height: 45px;
+}
+.festival-list-sec .concert-item.blue .content-box .desc{
+    color: var(--white);
+    /* min-height: 100px; */
+}
+
+
+
+/* =======================================================================
+    Travel Page CSS
+========================================================================== */
+.travel-video-banner{
+    padding-bottom: 200px;
+}
+.travel-video-banner .play-btn{
+    color: var(--blue);
+    font-size: 20px;
+    background-color: var(--white);
+    padding: 10px 15px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    border: none;
+    border-radius: 6px;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+.travel-video-banner .content-box{
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 0 60px 0 0;
+    padding: 70px 70px;
+    width: 60%;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+.travel-video-banner .content-box .title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.travel-video-banner .content-box .desc{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.travel-regular-sec{
+    position: relative;
+    padding: 50px 0;
+}
+.travel-regular-sec .img-box img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.travel-regular-sec .content-box{
+    background-color: var(--blue);
+    border-radius: 60px 0 60px 0;
+    padding: 80px 120px;
+    position: relative;
+    left: -100px;
+}
+.travel-regular-sec .content-box .title{
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 20px;
+}
+.travel-regular-sec .content-box .desc{
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* Explore Item */
+.explore-sec{
+    padding: 70px 0 40px 0;
+}
+.explore-item{
+    border: 1px solid #f5f5f5;
+    padding: 24px 24px 19px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    margin-bottom: 30px;
+}
+.explore-item .img-box{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.explore-item .img-box img{
+    width: 200;
+    height: 200;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.explore-item .content-box .title{
+    color: var(--black);
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.explore-item .content-box .desc{
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    min-height: 90px;
+}
+.explore-item .content-box .link{
+    color: var(--blue);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.browse-item{
+    background-color: rgb(0, 95, 102);
+    color: var(--white);
+    padding: 40px 25px;
+    border-radius: 10px;
+    height: 350px;
+}
+.browse-item .title{
+    color: var(--white);
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.browse-item .desc{
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+#browse-slider .owl-nav{
+    position: absolute;
+    top: -100px;
+    right: 45px;
+    display: flex;
+}
+#browse-slider .owl-nav button{
+    background-color: var(--white);
+    color: var(--blue);
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px!important;
+    display: block;
+    width: fit-content;
+    transition: 0.3s all ease;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+#browse-slider .owl-nav button:hover{
+    background-color: var(--blue);
+    color: var(--white)!important;
+}
+#browse-slider .owl-dots{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 100px;
+}
+#browse-slider .owl-dots .owl-dot span{
+    background-color: #c5c5c5;
+    width: 5px;
+    height: 5px;
+}
+#browse-slider .owl-dots .owl-dot.active span{
+    background-color: var(--blue);
+    width: 10px;
+    height: 10px;
+}
 /* =======================================================================
     Footer CSS
 ========================================================================== */
